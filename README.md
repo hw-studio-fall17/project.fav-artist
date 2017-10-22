@@ -1,6 +1,6 @@
 # Artist Website
 
-##### You're going to create a website for you favorite band or artist. Once you've chosen a band and/or artist, make sure to checkout their real website for ideas.
+##### You're going to create a website for your favorite band or artist. Once you've chosen a band and/or artist, make sure to check out their real website for ideas.
 
 ##### Check out some examples here:
 * [Taylor Swift](https://taylorswift.com/) <-- lots of hover action
