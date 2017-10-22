@@ -26,7 +26,7 @@ ______________________________________________________________________________
 * Add [`<a>` tags](https://www.w3schools.com/tags/tag_a.asp) to the band/artist on soundcloud, spotify, youtube, or vimeo
 * Put an `id` on the `<body>`. See below for an example
   ``` HTML
-  <body id="example-id">
+  <body id="home-body">
     ...
   </body>
   ```
@@ -51,6 +51,7 @@ ______________________________________________________________________________
   * Click on the black bar at the bottom of the page that says 1 Family Selected
   * Copy the `<link>` and put it inside the `<head>` tag in your HTML file
   * Follow the font-family instructions for your CSS
+
 * Change the color of the text on your page
 
 
@@ -72,7 +73,9 @@ ______________________________________________________________________________
 ## LEVEL THREE
 
 ### Home Page
-* Make your navigation bar slowly fade in when the page loads. Hint: you will need to use the jQuery fadeIn() function. Google it if you forget how it works.
+* In `script.js` select the nav bar by it's `id` using jQuery and save it in a variable called `navBar`. It will look something like this 
+  ` var exampleSelect = $("#example-id") `
+* Make your navigation bar slowly fade in when the page loads. Hint: you will need to use the jQuery [fadeIn() function](http://api.jquery.com/fadein/). Google it if you forget how it works.
 * Get rid of the underlines on the link tags in your navigation. Google "how to remove underlines from link tags with CSS"
 
 ### Tour Dates Page
