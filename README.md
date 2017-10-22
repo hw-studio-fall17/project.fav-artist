@@ -15,7 +15,7 @@
 * You have a `script.js` that is already linked in all of your HTML files using: `<script type="text/javascript" src="script.js"></script>` in the `<head>` tags
 * There is a navigation bar in `home.html` that has some styles prewritten for you. Click on the links to make sure they are working properly. You will probably want to add more styling as you continue to build your website.
 
-______________________________________________________________________________
+_____________________________________________________________________________
 ## LEVEL ONE
 
 ### Home Page in `home.html`
@@ -68,7 +68,7 @@ ______________________________________________________________________________
   ``` HTML
   <button><a href="link_goes_here"></a></button>
   ```
-* Add a `hover` effect to the buttons on your tour dates table, so that when you hover on the ticket buttons some of the colors change. (or something else changes!)
+* Add a [`hover` effect](https://www.w3schools.com/cssref/sel_hover.asp) to the buttons on your tour dates table, so that when you hover on the ticket buttons some of the colors change. (or something else changes!)
 
 ______________________________________________________________________________
 ## LEVEL THREE
