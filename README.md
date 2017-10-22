@@ -61,9 +61,6 @@ ______________________________________________________________________________
   ```
 * Add a `hover` effect to the buttons on your tour dates table, so that when you hover on the ticket buttons some of the colors change. (or something else changes!)
 
-### Merchandise Page
-* Add a parallax image to your page. [See an example here](https://www.w3schools.com/howto/howto_css_parallax.asp)
-
 ______________________________________________________________________________
 ## LEVEL THREE
 
@@ -79,6 +76,8 @@ ______________________________________________________________________________
   * Call the onClick() jQuery function on your variable. 
   * Use the alert() function to create a pop up saying the user has won back stage passes 
 
+### Merchandise Page
+* Add a parallax image to your page. [See an example here](https://www.w3schools.com/howto/howto_css_parallax.asp)
 ______________________________________________________________________________
 ## LEVEL FOUR
 ### Other ideas
