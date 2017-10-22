@@ -35,7 +35,8 @@ ______________________________________________________________________________
 ### Tour Dates Page in `tour-dates.html`
 * Make a table using the HTML [`<table>` tag](https://www.w3schools.com/html/html_tables.asp) that shows the band/artist's concert schedule
 * Add a 'tickets' button to each tour date. Here is a good example: 
-![tour-dates example](images/example-tour-dates.png). You will need to use the [`<button>` tag](https://www.w3schools.com/tags/tag_button.asp.
+![tour-dates example](images/example-tour-dates.png). 
+* You will need to use the [`<button>` tag](https://www.w3schools.com/tags/tag_button.asp)
 
 
 ### Merchandise Page in `merchandise.html`
