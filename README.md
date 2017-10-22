@@ -20,15 +20,22 @@ ______________________________________________________________________________
 
 ### Home Page in `home.html`
 * Change WEBSITE NAME to say something better
-* Add a brief bio for the band and/or artist.
-* Add the band/artist's most recent music video using the `<iframe>` tag. GOOGLE "HTML iframe tag" to figure out how to use it!
-* Add link tags to the band/artist on soundcloud, spotify, youtube, or vimeo
-* Add a background color to this page
+* Add a [heading](https://www.w3schools.com/html/html_headings.asp) to your website
+* Add a brief bio for the band and/or artist using a `<p>` tag.
+* Add the band/artist's most recent music video using the [`<iframe>` tag](https://www.w3schools.com/tags/tag_iframe.asp)
+* Add [`<a>` tags](https://www.w3schools.com/tags/tag_a.asp) to the band/artist on soundcloud, spotify, youtube, or vimeo
+* Put an `id` on the `<body>`. See below for an example
+  ``` HTML
+  <body id="example-id">
+    ...
+  </body>
+  ```
+* In `style.css` select the `id` to add a [background color](https://www.w3schools.com/cssref/pr_background-color.asp)
 
 ### Tour Dates Page in `tour-dates.html`
-* Make a table using the HTML `<table>` tag that shows the band/artist's concert schedule
+* Make a table using the HTML [`<table>` tag](https://www.w3schools.com/html/html_tables.asp) that shows the band/artist's concert schedule
 * Add a 'tickets' button to each tour date. Here is a good example: 
-![tour-dates example](images/example-tour-dates.png). You will need to google "how to make a button using HTML".
+![tour-dates example](images/example-tour-dates.png). You will need to use the [`<button>` tag](https://www.w3schools.com/tags/tag_button.asp.
 
 
 ### Merchandise Page in `merchandise.html`
@@ -38,7 +45,7 @@ ______________________________________________________________________________
 ## LEVEL TWO
 
 ### Home Page
-* Change your background color to be a linear-gradient() <-- google it! instead of one solid color
+* Try changing your background color to be a [linear-gradient()](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient) instead of one solid color
 * Add a [google font](https://fonts.google.com/) to your page.
   * Click on the red plus sign of the font you want to use
   * Click on the black bar at the bottom of the page that says 1 Family Selected
@@ -48,7 +55,7 @@ ______________________________________________________________________________
 
 
 ### Tour Dates Page
-* Style your buttons to look better. Here are some CSS properties you will probably want to use:
+* Style your tickets buttons to look better. Here are some CSS properties you will probably want to use:
   * `background-color`
   * `border-radius`
   * `padding`
@@ -73,13 +80,15 @@ ______________________________________________________________________________
   * Create a new HTML element to be clicked or decide which old HTML element you would like to use. Add an id to the element so that it is easy to select using jQuery.
   * Select your element in `script.js` using jQuery and save it in a variable.
     * ``` var exampleVariable = $("#example-class") ```
-  * Call the onClick() jQuery function on your variable. 
-  * Use the alert() function to create a pop up saying the user has won back stage passes 
+  * Call the [click() jQuery function](https://api.jquery.com/click/) on your variable. 
+  * When the user clicks on the secret spot use the [alert() function](https://www.w3schools.com/jsref/met_win_alert.asp) to create a pop up saying the user has won back stage passes 
+
+______________________________________________________________________________
+## LEVEL FOUR
 
 ### Merchandise Page
 * Add a parallax image to your page. [See an example here](https://www.w3schools.com/howto/howto_css_parallax.asp)
-______________________________________________________________________________
-## LEVEL FOUR
+
 ### Other ideas
 * Add a [slide show](https://www.w3schools.com/howto/howto_js_slideshow.asp) of images to one of the pages.
 * Try to use spotify or soundcloud to embed a song on one of the pages
