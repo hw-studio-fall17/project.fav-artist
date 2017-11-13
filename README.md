@@ -86,9 +86,9 @@ _____________________________________________________________________________
 
 ### Tour Dates Page
 * Create a secret spot on the page. When the user clicks on it, they will be alerted that they won backstage passes to the next show! Follow the steps below:
-  * Create a new HTML element to be clicked or decide which old HTML element you would like to use. Add an id to the element so that it is easy to select using jQuery.
+  * Create a new HTML element to be clicked or decide which old HTML element you would like to use. Add an `id` to the element so that it is easy to select using jQuery.
   * Select your element in `script.js` using jQuery and save it in a variable.
-    * ``` var exampleVariable = $("#example-class"); ```
+    * ``` var exampleVariable = $("#example-id"); ```
   * Call the [click() jQuery function](https://api.jquery.com/click/) on your variable. 
   * When the user clicks on the secret spot use the [alert() function](https://www.w3schools.com/jsref/met_win_alert.asp) to create a pop up saying the user has won back stage passes 
 
